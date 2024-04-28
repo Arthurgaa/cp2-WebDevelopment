@@ -1,6 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*CSS DA PAGINA PRINCIPAL*/
+
 *{
+    background-color: black;
+    color: white;
     margin:0;
     padding:0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    background-color: black;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    width: 50%;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: "Montserrat", sans-serif;
 }
 
 #imgbanner{
@@ -8,13 +46,8 @@
     height: 400px;
 }
 
-#logo{
-    width: 150px;
-}
 
-header{
-    background-color: black;
-}
+
 
 /*FORMULÁRIO ESTILIZAÇÃO*/
 

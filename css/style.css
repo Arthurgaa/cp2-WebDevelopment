@@ -8,6 +8,14 @@
     height: 400px;
 }
 
+#logo{
+    width: 150px;
+}
+
+header{
+    background-color: black;
+}
+
 /*FORMULÁRIO ESTILIZAÇÃO*/
 
 *{

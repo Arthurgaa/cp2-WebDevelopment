@@ -15,7 +15,7 @@
                 <div class="menu">
                     <a href="contato.html">CONTATO</a>
                     <a href="sobre.html">SOBRE</a>
-                    <a href="contato.html">CADASTRE-SE</a>
+                    <a href="cadastro.html">CADASTRE-SE</a>
                     <a href="login.html">LOGIN</a>
                 </div><!--menu-->
         </div><!--center-->
@@ -31,29 +31,6 @@
 
 
     <!--JAVAS SCRIPT EXTERNO-->
-    <script src="script.js">
-        
-        //CRIANDO UM SLIDESHOW AUTOMÁTICO
-
-        //Declarando as variaveis
-
-        let imagens=[''];
-        let index=0;
-        let time =3000;
-
-        function slideShow(){
-            document.getElementById("imgbanner").src=imagens[index];
-            index++;
-
-            if(index == imagens.length){
-                index=0;
-            }
-
-            setTimeout('slideShow()', time);
-
-        }
-
-        slideShow();
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

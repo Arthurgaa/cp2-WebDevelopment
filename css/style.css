@@ -51,20 +51,22 @@ header{
 
 /*FORMULÁRIO ESTILIZAÇÃO*/
 
+/*CONTATO*/
+
 *{
     font-family: Helvetica;
     box-sizing: border-box;
 }
 
-#bodycadastro{
+#bodycontato{
     padding: 1rem;
 }
 
-#titulocadastro{
+#titulocontato{
     text-align: center;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     gap: .5rem;
@@ -95,3 +97,12 @@ button{
     cursor: pointer;
 }
 
+/*CADASTRO*/
+
+#bodycadastro{
+    padding: 1rem;
+}
+
+#titulocadastro{
+    text-align: center;
+}

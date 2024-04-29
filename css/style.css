@@ -122,3 +122,25 @@ button{
     margin: 50px;
 }
 
+/*CSS QUIZ*/
+#bodyquiz {
+    background-color: black;
+    font-size: 30px;
+    color: aqua;
+    text-align: center;
+}
+
+#tituloquiz {
+    color: orange;
+}
+
+#msg {
+    background-image: linear-gradient(to right, crimson, purple);
+    font-size: 25px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

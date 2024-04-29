@@ -1,4 +1,4 @@
-//QUIZ BIKECITY
+//QUIZ BIKECITY 10 PERGUNTAS
 let p1=prompt("Qual o seu nome?")
 let p2=prompt("Há quanto tempo você pedala?")
 let p3=prompt("Qual é a sua marca de bike favorita?")

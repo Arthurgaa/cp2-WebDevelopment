@@ -1,3 +1,8 @@
+//ALERTA PÁGINA PRINCIPAL SEJA BEM-VINDO!
+function abrirAlerta(){
+    alert("Seja bem-vindo!")
+}
+
 //APÓS LOGIN IR PARA PÁGINA QUIZ
 function validar(){
 

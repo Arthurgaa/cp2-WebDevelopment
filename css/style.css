@@ -49,6 +49,13 @@ header{
 
 /*FORMULÁRIO ESTILIZAÇÃO*/
 
+/*LOGIN*/
+
+#titulologin {
+    text-align: center;
+    color: yellow;
+}
+
 /*CONTATO*/
 
 *{
@@ -62,6 +69,7 @@ header{
 
 #titulocontato{
     text-align: center;
+    color: yellow;
 }
 
 form {
@@ -103,6 +111,7 @@ button{
 
 #titulocadastro{
     text-align: center;
+    color: yellow;
 }
 
 
@@ -110,13 +119,13 @@ button{
 
 #titulosobre {
     text-align: center;
+    color: yellow;
 }
 
 #divsobre {
     text-align: center;
     margin: 20px 650px;
 }
-
 
 #divsobre p {
     margin: 50px;
@@ -131,7 +140,7 @@ button{
 }
 
 #tituloquiz {
-    color: orange;
+    color: yellow;
 }
 
 #msg {

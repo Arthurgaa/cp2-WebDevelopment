@@ -132,6 +132,11 @@ button{
 }
 
 /*CSS QUIZ*/
+
+#btnquiz {
+    margin: 20px;
+}
+
 #bodyquiz {
     background-color: black;
     font-size: 30px;

@@ -101,6 +101,7 @@ button{
     color: #FFF;
     font-size: 1.1rem;
     cursor: pointer;
+    margin: 20px;
 }
 
 /*CADASTRO*/
@@ -120,15 +121,23 @@ button{
 #titulosobre {
     text-align: center;
     color: yellow;
+    margin: 20px;
 }
 
 #divsobre {
     text-align: center;
-    margin: 20px 650px;
+    margin: 20px 100px;
 }
 
 #divsobre p {
     margin: 50px;
+}
+
+#logosobre {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*CSS QUIZ*/

@@ -1,6 +1,6 @@
 //ALERTA PÁGINA PRINCIPAL SEJA BEM-VINDO!
 function abrirAlerta(){
-    alert("Seja bem-vindo!")
+    alert("Seja bem-vindo! Cadastre-se para participar de nosso Quiz!")
 }
 
 //APÓS LOGIN IR PARA PÁGINA QUIZ

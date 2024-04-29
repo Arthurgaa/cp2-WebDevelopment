@@ -47,8 +47,6 @@ header{
 }
 
 
-
-
 /*FORMULÁRIO ESTILIZAÇÃO*/
 
 /*CONTATO*/
@@ -106,3 +104,21 @@ button{
 #titulocadastro{
     text-align: center;
 }
+
+
+/*SOBRE BIKECITY*/
+
+#titulosobre {
+    text-align: center;
+}
+
+#divsobre {
+    text-align: center;
+    margin: 20px 650px;
+}
+
+
+#divsobre p {
+    margin: 50px;
+}
+

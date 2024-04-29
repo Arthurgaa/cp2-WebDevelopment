@@ -1,3 +1,4 @@
+//APÓS LOGIN IR PARA PÁGINA QUIZ
 function validar(){
 
     //declarando as variaveis
@@ -46,3 +47,18 @@ slideShow();
     return false;
 }
 
+//APÓS CADASTRO IR PARA PÁGINA LOGIN
+function validar2(){
+
+    //declarando as variaveis
+    let usuario =document.getElementById("user").value;
+    let email =document.getElementById("email").value;
+    let senha =document.getElementById("password").value;
+
+    if (user ==="" && email ==="" && password ===""){
+        alert("usuario e senha inválidos")
+    }else{
+        window.open("login.html")
+    }
+
+}

@@ -4,7 +4,7 @@ function abrirAlerta(){
     alert("Seja bem-vindo! Cadastre-se para participar de nosso Quiz!")
 }
 
-abrirAlerta();
+//abrirAlerta();
 
 
 

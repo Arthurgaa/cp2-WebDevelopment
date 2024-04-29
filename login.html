@@ -7,24 +7,32 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Login Bikecity</title>
 </head>
-<body>
-    <button><a href="index.html">Home</a></button>
+<body id="bodylogin">
 
-    <h1 id="titulologin">Login</h1>
-    
-    <form>
-        <p>
-            Usuário:
-            <input type="text" placeholder="Digite seu usuário" id="usuario" required>
-        </p>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça Login<br>no melhor site de bicicletas do Brasil!</h1>
+            <img src="imgbicicletalogin.svg" class="left-login-img" alt="Animação de pessoas andando de bicicleta">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" id="usuario" placeholder="Digite seu usuário" required>
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+                </div>
+                <button class="btn-login" id="botaologin" onclick="validar()">Enviar</button> 
+                <button>
+                    <a href="index.html" id="botaohome">Home</a>
+                </button>
+            </div>
+        </div><!--right-login-->
 
-        <p>
-            Senha:
-            <input type="password" placeholder="Digite sua senha" id="senha" required>
-        </p>
-        <button onclick="validar()">Enviar</button>
-
-    </form>
+    </div><!--main-login-->
 
     <!--JAVAS SCRIPT EXTERNO-->
     <script src="script.js"></script>

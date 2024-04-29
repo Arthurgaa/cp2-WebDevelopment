@@ -18,6 +18,10 @@ function validar(){
 
 }
 
+document.getElementById('botaologin')
+.addEventListener('click', function(){
+    validar();
+})
 
  //VERIFICA SE O E-MAIL É VÁLIDO
  function isEmailValid(email){

@@ -8,27 +8,36 @@
     <title>Cadastro Bikecity</title>
 </head>
 <body id="bodycadastro">
-    <button><a href="index.html">Home</a></button>
+    <div class="main-cadastro">
+        <div class="left-cadastro">
+            <h1>Faça parte<br>do melhor site de bicicletas do Brasil!</h1>
+            <img src="imgbicicletacadastro.svg" class="left-cadastro-img" alt="Animação de pessoas andando de bicicleta">
+        </div>
+                <form class="textfield">
+        <div class="right-cadastro">
+            <div class="card-cadastro">
+                <h1>CADASTRE-SE</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" id="usuario" placeholder="Digite seu usuário" required>
+                </div>
+                <div class="textfield">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email" id="email" required>
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+                </div>
+                <button class="btn-cadastro" id="botaocadastro" onclick="validar2()">Enviar</button> 
+                <button>
+                    <a href="index.html" id="botaohome">Home</a>
+                </button>
+                </form>
+            </div>
+        </div><!--right-cadastro-->
 
-    <h1 id="titulocadastro">Cadastro</h1>
-    <form>
-
-        <label for="user">Usuário</label>
-        <input type="text" placeholder="Digite seu usuário" id="user" required>
-
-        <label for="email">Email:</label>
-        <input type="email" placeholder="Digite seu email" id="email" required>
-
-        <label for="senha">Senha:</label>
-        <input type="password" placeholder="Digite sua senha" id="password" required>
-
-        <button onclick="validar2()">Enviar</button>
-    </form>
-
-    
-
-    
-
+    </div><!--main-cadastro-->
     <!--JAVAS SCRIPT EXTERNO-->
     <script src="script.js"></script>
 </body>

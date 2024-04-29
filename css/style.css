@@ -245,12 +245,133 @@ button{
 
 #bodycadastro{
     background-color: black;
-    padding: 1rem;
+    margin: 0;
 }
 
-#titulocadastro{
+.main-cadastro{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-cadastro{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+}
+
+.left-cadastro > h1 {
+    font-size: 3vw;
+    color: #e99a3f;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
-    color: yellow;
+}
+
+.left-cadastro-img{
+    width: 30vw;
+}
+
+.right-cadastro{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card-cadastro{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #e99a3f;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #e99a3f86;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card-cadastro > h1{
+    color: #000000;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #0000004b;
+    color: white;
+    font-size: 12pt;
+    box-shadow: 0px 10px 50px #0000005d;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.textfield > label{
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.textfield > input::placeholder{
+    color: #00000088;
+}
+
+.btn-cadastro{
+    background: black;
+    font-family: "Montserrat", sans-serif;
+    width: 568px;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #e99a3f;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00000050;
+}
+
+#botaohome{
+    text-decoration: none;
+    background: black;
+    font-family: "Montserrat", sans-serif;
+    padding: 16px 230px;
+    margin: 25px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #e99a3f;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00000050;
+    border-radius: 5px;
 }
 
 
@@ -262,18 +383,55 @@ button{
 
 #titulosobre {
     text-align: center;
-    color: yellow;
+    color: #e99a3f;
     margin: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.fotoloja{
+    width: 500px;
+    border-radius: 25px;
 }
 
 #divsobre {
-    text-align: center;
     margin: 20px 100px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background: #e99a3f;
+    border-radius: 30px;
 }
 
 #divsobre p {
     margin: 50px;
 }
+
+#pfsobre1{
+    color: white;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+}
+
+#pfsobre2{
+    color: white;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+}
+
+.boxbotao{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    font-family: "Montserrat", sans-serif;
+}
+
+.botaohomesobre{
+    text-decoration: none;
+    color: black;
+}
+
 
 #logosobre {
     margin: 20px;

@@ -1,10 +1,11 @@
 //APÓS LOGIN IR PARA PÁGINA QUIZ
 function validar(){
-
+    
     //declarando as variaveis
     let usuario =document.getElementById("usuario").value;
     let senha =document.getElementById("senha").value;
-
+    console.log('test')
+    
     if (usuario ===""){
         alert("usuario inválido")
     }
@@ -55,7 +56,7 @@ function validar2(){
         alert("senha inválida")
     }
     else{
-        window.open("login.html")
+        window.location.href=("login.html")
     }
 
 }

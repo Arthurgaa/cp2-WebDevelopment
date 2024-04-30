@@ -12,7 +12,8 @@
 }
 
 #tituloquiz {
-    color: yellow;
+    color: #e99a3f;
+    font-family: "Montserrat", sans-serif;
 }
 
 #msg {
@@ -24,4 +25,5 @@
     align-items: center;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    font-family: "Montserrat", sans-serif;
 }

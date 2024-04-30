@@ -14,7 +14,7 @@ function validar(){
     }
         
     else{
-        window.open("quiz.html")
+        window.location.href=("quiz.html")
     }
 
 }

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
 #bodylogin{
     background-color: black;
     margin: 0;
@@ -101,10 +105,11 @@
 .btn-login{
     background: black;
     font-family: "Montserrat", sans-serif;
-    width: 568px;
+    width: 455px;
     padding: 16px 0px;
     margin: 25px;
     border: none;
+    border-radius: 5px;
     outline: none;
     text-transform: uppercase;
     font-weight: 800;
@@ -112,13 +117,20 @@
     color: #e99a3f;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00000050;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.btn-login:hover{
+    background-color: white;
+    color: #e99a3f;
+    transform: scale(1.2);
 }
 
 #botaohome{
     text-decoration: none;
     background: black;
     font-family: "Montserrat", sans-serif;
-    padding: 16px 230px;
+    padding: 16px 200px;
     margin: -50px;
     border: none;
     outline: none;
@@ -129,4 +141,11 @@
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00000050;
     border-radius: 5px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+#botaohome:hover{
+    background-color: white;
+    color: #e99a3f;
+    transform: scale(1.2);
 }

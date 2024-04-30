@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+#btnquiz {
+    margin: 20px;
+}
+
+#bodyquiz {
+    background-color: black;
+    font-size: 30px;
+    color: aqua;
+    text-align: center;
+}
+
+#tituloquiz {
+    color: yellow;
+}
+
+#msg {
+    background-image: linear-gradient(to right, crimson, purple);
+    font-size: 25px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

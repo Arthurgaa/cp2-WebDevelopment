@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-#bodylogin{
+#bodycadastro{
     background-color: black;
     margin: 0;
 }
 
-.main-login{
+.main-cadastro{
     width: 100vw;
     height: 100vh;
     background: black;
@@ -14,7 +14,7 @@
     align-items: center;
 }
 
-.left-login{
+.left-cadastro{
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -24,18 +24,18 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.left-login > h1 {
+.left-cadastro > h1 {
     font-size: 3vw;
     color: #e99a3f;
     font-family: "Montserrat", sans-serif;
     text-align: center;
 }
 
-.left-login-img{
+.left-cadastro-img{
     width: 30vw;
 }
 
-.right-login{
+.right-cadastro{
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -44,7 +44,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.card-login{
+.card-cadastro{
     width: 60%;
     display: flex;
     justify-content: center;
@@ -57,7 +57,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.card-login > h1{
+.card-cadastro > h1{
     color: #000000;
     font-weight: 800;
     font-family: "Montserrat", sans-serif;
@@ -98,7 +98,7 @@
     color: #00000088;
 }
 
-.btn-login{
+.btn-cadastro{
     background: black;
     font-family: "Montserrat", sans-serif;
     width: 568px;

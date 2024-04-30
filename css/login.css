@@ -68,6 +68,10 @@
     margin: 0;
 }
 
+span{
+    color: maroon;
+}
+
 .textfield{
     width: 100%;
     display: flex;

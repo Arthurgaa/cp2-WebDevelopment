@@ -17,6 +17,7 @@
 
 .fotoloja{
     width: 500px;
+    height: 100%;
     border-radius: 25px;
 }
 
@@ -36,12 +37,14 @@
 #pfsobre1{
     color: white;
     font-weight: 800;
+    text-indent: 1em;
     font-family: "Montserrat", sans-serif;
 }
 
 #pfsobre2{
     color: white;
     font-weight: 800;
+    text-indent: 1em;
     font-family: "Montserrat", sans-serif;
 }
 

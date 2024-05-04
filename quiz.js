@@ -11,4 +11,4 @@ let p9=prompt("Qual é a sua distância média de pedalada por semana?")
 let p10=prompt("Qual conselho daria para iniciantes no ciclismo?")
 let msg=document.getElementById("msg")
 
-msg.innerHTML=`ola ${p1}, você pedala há ${p2}, sua marca favorita é ${p3} e seu tipo de bike preferido é ${p4}, sua primeira bike foi uma ${p5}, seu acessório favorito é ${p6}, você prefere pedalar ${p7} e em ${p8}, sua distância média de pedalada por semana é de ${p9}, seu concelho para iniciantes é ${p10}.`
+msg.innerHTML=`ola ${p1}, você pedala há ${p2}, sua marca favorita é ${p3} e seu tipo de bike preferido é ${p4}, sua primeira bike foi uma ${p5}, seu acessório favorito é ${p6}, você prefere pedalar ${p7} e em ${p8}, sua distância média de pedalada por semana é de ${p9}, seu conselho para iniciantes é ${p10}.`

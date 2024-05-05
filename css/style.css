@@ -128,6 +128,8 @@ footer{
     margin-top: 30px;
     position: relative;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .clearfix {
     clear: both;

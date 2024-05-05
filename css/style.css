@@ -69,4 +69,106 @@ footer{
     text-align: center;
     color: #e99a3f;
     font-family: "Montserrat", sans-serif;
+    position: relative;
 }
+
+.slide {
+    position: relative;
+    overflow: hidden;
+    bottom: 100px;
+    margin-top: 100px;
+    width: 350px; 
+    height: 350px; 
+    margin-right: 20px; 
+    margin-bottom: 10px; 
+    background-color: #ddd;
+    flex: 0 0 auto;
+    margin-left: 20px;
+}
+.slide1{
+    position: relative;
+    overflow: hidden;
+    bottom: 100px;
+    margin-top: 100px;
+    width: 350px; 
+    height: 350px; 
+    margin-right: 20px; 
+    margin-bottom: 10px; 
+    background-color: #ddd;
+}
+.slide2{
+    position: relative;
+    overflow: hidden;
+    bottom: 100px;
+    margin-top: 100px;
+    width: 350px; 
+    height: 350px; 
+    margin-right: 20px; 
+    margin-bottom: 10px; 
+    background-color: #ddd;
+}
+.slide3{
+    position: relative;
+    overflow: hidden;
+    bottom: 100px;
+    margin-top: 100px;
+    width: 350px; 
+    height: 350px; 
+    margin-right: 20px; 
+    margin-bottom: 10px; 
+    background-color: #ddd;
+}
+.bicicleta{
+    flex-wrap: wrap;
+    display: flex;
+    overflow-x: auto; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    margin-top: 30px;
+    position: relative;
+}
+.clearfix {
+    clear: both;
+}
+
+.bicicleta1, .bicicleta2, .bicicleta3, .bicicleta4 {
+    position: relative; 
+}
+
+.slide-title {
+    font-size: 14px;
+    text-align: center;
+    max-width: 200px;
+    position: absolute; 
+    bottom: 100px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    color: green;
+}
+.slide-title1{
+    
+    font-size: 14px;
+    text-align: center;
+    max-width: 200px;
+    position: relative; 
+    bottom: 50px; 
+    margin: 0 auto; 
+    color: green;
+}
+
+.slide-title2{
+    
+    font-size: 14px;
+    text-align: center;
+    max-width: 200px;
+    position: relative; 
+    bottom: 40px; 
+    margin: 0 auto; 
+    color: green;
+}
+
+
+
+
+
+
